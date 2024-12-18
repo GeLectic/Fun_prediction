@@ -55,11 +55,11 @@ input_features = np.array([
 
 if st.button("Predict"):
     prediction = model.predict(input_features)[0] * 100  # Convert to percentage
-    st.markdown(f"### Your chances are: **{prediction:.2f}%** 💯 **ki ladki milegi!**")
+    st.markdown(f"### Your chances are: **{prediction:.2f}%**  **ki ladki milegi!**")
     if prediction > 70:
         st.balloons()
     elif prediction < 50:
-        st.warning("Milegi bhai Teko bhi jald he kabhi na kabhi milegi chutttt! 💪")
+        st.warning("Milegi bhai Teko bhi jald he kabhi na kabhi miljaegii! 💪")
 
 
 st.markdown("___")
