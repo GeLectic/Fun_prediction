@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load(r'D:\Codes\python\fun_program\random_forest_model.pkl')
+model = joblib.load(r'random_forest_model.pkl')
 
 # Set page configuration
 st.set_page_config(page_title="Ladki Milne Ka Predictor", layout="wide")
